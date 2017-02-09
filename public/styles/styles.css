@@ -1,6 +1,6 @@
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: #EFF6EE;
+    padding-top: 70px;
+    background-color: #FFFAE0;
 }
 
 .hero-spacer {
@@ -16,7 +16,7 @@ footer {
 }
 
 .navbar {
-  background-color: #273043;
+  background-color: #362C28;
 }
 
 #navfont {
@@ -24,4 +24,9 @@ footer {
   color: #EFF6EE;
   letter-spacing: 0.0625em;
   font-weight: 300;
+}
+
+#headerBlock {
+  background-color: #FFFFFF;
+  border-radius: 10px;
 }
