@@ -40,3 +40,19 @@ h5 {
 	/*font-variant: normal;
 	font-weight: 500;*/
 	line-height: 18.4px;
+}
+
+.img-padding {
+  padding-bottom: 10px;
+}
+
+.btn {
+  background-color: #D1AD2B;
+  letter-spacing: 0.0625em;
+  border-style: none;
+  border-width: 0px;
+}
+
+.btn:hover {
+  background-color: #BC8A00;
+}
