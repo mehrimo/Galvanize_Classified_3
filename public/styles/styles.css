@@ -3,11 +3,6 @@ body {
     background-color: #D3D3D3;
 }
 
-.columns {
-  columns: 2;
-  padding: 15px; 
-}
-
 .hero-spacer {
     margin-top: 50px;
 }
@@ -31,10 +26,6 @@ footer {
   font-weight: 300;
 }
 
-#all-posts {
-  display:inline;
-}
-
 #headerBlock {
   font-family: 'Comfortaa', cursive;
   background-color: #587291;
@@ -55,9 +46,10 @@ h5 {
   padding-bottom: 20px;
 }
 
+
+
 img {
-  /*padding-bottom: 10px;*/
-  max-width: 200px;
+  max-width: 350px !important
 }
 
 .btn {
