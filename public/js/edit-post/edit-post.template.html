@@ -1,28 +1,30 @@
 <h3>Edit Listing</h3>
 <div class="row">
-  <form class="" action="index.html" method="post">
-    <div class="form-padding">
-      <label for="title">Title</label>
-      <br>
-      <input type="text" name="title" value="" ng-model="$ctrl.selectedPost.title">
-    </div>
-    <div class="form-padding">
-      <label for="description">Description</label>
-      <br>
-      <input type="text" name="description" value="" ng-model="$ctrl.selectedPost.description">
-    </div>
-    <div class="form-padding">
-      <label for="price">Price</label>
-      <br>
-      <input type="text" name="price" value="" ng-model="$ctrl.selectedPost.price">
-    </div>
-    <div class="form-padding">
-      <label for="item_image">Item Image</label>
-      <br>
-      <input type="text" name="item_image" value="" ng-model="$ctrl.selectedPost.item_image">
-    </div>
-    <div class="form-padding">
-      <button type="button" class="btn btn-primary" name="button" ng-click="$ctrl.editPost()">Save</button>
-    </div>
-  </form>
+  <div class="col-xs-6 col-md-4">
+    <form class="" action="index.html" method="post">
+      <div class="form-padding">
+        <label for="title">Title</label>
+        <br>
+        <input type="text" name="title" size="35" value="" ng-model="$ctrl.selectedPost.title">
+      </div>
+      <div class="form-padding">
+        <label for="description">Description</label>
+        <br>
+        <input type="text" name="description" size="35" value="" ng-model="$ctrl.selectedPost.description">
+      </div>
+      <div class="form-padding">
+        <label for="price">Price</label>
+        <br>
+        <input type="text" name="price" size="35" value="" ng-model="$ctrl.selectedPost.price">
+      </div>
+      <div class="form-padding">
+        <label for="item_image">Item Image</label>
+        <br>
+        <input type="text" name="item_image" size="35" value="" ng-model="$ctrl.selectedPost.item_image">
+      </div>
+      <div class="form-padding">
+        <button type="button" class="btn btn-primary" name="button" ng-click="$ctrl.editPost()">Save</button>
+      </div>
+    </form>
+</div>
 </div>
