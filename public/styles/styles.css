@@ -42,7 +42,7 @@ h5 {
 	line-height: 18.4px;
 }
 
-.img-padding {
+img {
   padding-bottom: 10px;
 }
 
@@ -55,4 +55,8 @@ h5 {
 
 .btn:hover {
   background-color: #BC8A00;
+}
+
+.form-padding {
+  padding-top: 10px;
 }
